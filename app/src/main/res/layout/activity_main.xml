@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="10dp"
+
+    android:stretchColumns="1"
+
+    android:background="#B19EB5"
+
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+
+        android:textAllCaps="true"
+
+        android:layout_margin="5dp"
+
+        android:background="@color/teal_700"
+        />
+
+    <TableRow
+        android:layout_margin="5dp">
+        <TextView
+            android:text="User Name"
+            />
+            <EditText
+
+                android:hint="Enter your ID"
+                />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:text="Password"
+            />
+        <EditText
+
+            android:hint="Enter your password"
+            />
+    </TableRow>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        >
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="5dp"
+            />
+
+
+        <Button
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forget password"
+            android:backgroundTint="@color/black"
+            android:layout_marginRight="5dp"
+            />
+
+
+
+    </LinearLayout>
+
+</TableLayout>
